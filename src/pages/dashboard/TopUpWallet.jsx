@@ -128,10 +128,10 @@ export default function TopUpWallet() {
                     type="radio"
                     name="coin_ratio"
                     id="exampleRadios2"
-                    value="50"
+                    value="10"
                   />
                   <label class="form-check-label m-0" for="exampleRadios2">
-                    50% Coins
+                    10% Coins
                   </label>
                 </div>
               </div>
