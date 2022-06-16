@@ -231,16 +231,17 @@ export default function DashboardHome() {
             </div>
           </div>
         </div>
+        {/* 
         <div className="row">
           <div className="col">
-            {/* WalletTransfer */}
+            { WalletTransfer }
             <div className="card card-body border shadow-sm mb-2">
               <div className="d-flex mb-2 justify-content-between align-items-center">
                 <div style={{ fontSize: "13px", fontWeight: "bold" }}>
                   Transfer from Inexpress Wallet to Vibration Wallet
                 </div>
               </div>
-              <div>
+              <div> 
                 <form
                   onSubmit={(e) => {
                     transferToCoinWallet(e);
@@ -262,13 +263,13 @@ export default function DashboardHome() {
                       min="0"
                       required
                     />
-                    {/* <button
+                    <button
                       class="btn btn-outline-secondary"
                       type="submit"
                       id="button-addon2"
                     >
                       Transfer
-                    </button> */}
+                    </button> 
                   </div>
 
                   <div class="input-group mb-3">
@@ -293,8 +294,8 @@ export default function DashboardHome() {
                 </form>
               </div>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div>*/}
       </div>
     </>
   );
